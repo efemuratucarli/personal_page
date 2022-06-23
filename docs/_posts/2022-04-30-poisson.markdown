@@ -2,7 +2,7 @@
 layout: post
 title:  "Binom Dağılımının Poisson Dağılımına Yakınsaması"
 date:   2022-06-22 10:56:31 +0300
-usemathjax: true
+use_math: true
 ---
 
 Binom Dağılımının Poisson Dağılımına Yakınsaması kısmına geçmeden önce kısaca bu dağılımlardan bahsetmek en doğrusu olacaktır.
