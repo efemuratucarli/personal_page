@@ -21,15 +21,13 @@
 disqus:
     shortname: efemuratucarli
 url: https://efemuratucarli.com/
+baseurl: ""
+description: ""
 
 title: Efe Murat Uçarlı
 email: efemuratucarli@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-baseurl:  "/"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  efemuratucarli
 linkedin_username: efemuratucarli
-
 
 # Build settings
 theme: minima
@@ -39,7 +37,6 @@ plugins:
 #header navbar
 header_pages: 
   - about.markdown
-  - blog.markdown
 
 # Build settings
 markdown: kramdown
@@ -50,6 +47,7 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
