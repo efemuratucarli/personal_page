@@ -51,10 +51,10 @@ $$\begin{aligned}P(X=k)&= \begin{pmatrix}n\\k\\ \end{pmatrix}p^k(1-p)^{n-k} \\
 
 **n** $$\rightarrow \infty$$ ve sabit bir **k** değeriyle
 
-$$\frac{n(n-1)...(n-k+1)}{n^k} = \frac{n}{n}\frac{(n-1)}{n}...\frac{(n-k+1)}{n} \\
+$$\displaylines{\frac{n(n-1)...(n-k+1)}{n^k} = \frac{n}{n}\frac{(n-1)}{n}...\frac{(n-k+1)}{n} \\
 \lim_{n\to \infty}\frac{n}{n}\frac{(n-1)}{n}...\frac{(n-k+1)}{n} = 1 \\
 \lim_{n\to \infty}\left(1 - \frac{\lambda}{n}\right)^\left(-k\right) = 1 \\
-\lim_{n\to \infty}\left(1 - \frac{\lambda}{n}\right)^n = e^\left(-\lambda\right)
+\lim_{n\to \infty}\left(1 - \frac{\lambda}{n}\right)^n = e^\left(-\lambda\right)}
 $$
 
 Sonuç olarak **n** denemelerin sayısı sonsuza ,  her bir denemenin başarılı olma olasılığı **p** **0**'a yaklaşırken $$\lambda = np$$ de sabit kalıyorsa

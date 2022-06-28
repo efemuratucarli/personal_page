@@ -206,7 +206,7 @@
   display: block;
   @include relative-font-size(1.5);
   box-shadow: inset 0 0 0 0 #54b3d6;
-  color: #c0ccda;
+  color: #DE1B09;
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -214,14 +214,18 @@
 
 .post-link:hover {
   box-shadow: inset 550px 0 0 0 #54b3d6;
-  color: #c0ccda;
+  color: #DE1B09;
 }
 
 .post-link:link {
    text-decoration: none;
-   color:#c0ccda
+   color:white;
 }
 
+.post-link:visited {
+  color: gray;
+  text-decoration: none;
+}
 
 
 /**
@@ -235,6 +239,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  color: white;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -243,6 +248,7 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+  color:white;
 
   h2 {
     @include relative-font-size(2);

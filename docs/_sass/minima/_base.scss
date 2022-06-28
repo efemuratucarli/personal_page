@@ -47,9 +47,11 @@ ul, ol, dl, figure,
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  background-image: url("/images/wallpaper.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat:no-repeat;
 }
-
-
 
 /**
  * Images
@@ -111,7 +113,7 @@ a {
   }
 
   &:hover {
-    color: $text-color;
+    color: #DE1B09;
     text-decoration: underline;
   }
 
@@ -151,7 +153,7 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: #000000;
 }
 
 code {
